@@ -14,7 +14,7 @@
 	margin-top: 3px;
 }
 
-.addTaxonomy {
+.add-taxonomy {
 	background-color: #565656;
 	float:left;
 	margin-left: 2px;
@@ -22,7 +22,7 @@
 	color: #000000;
 }
 
-.delTaxonomy {
+.del-taxonomy {
 	padding: 1px 1px 1px 1px;
 	margin-left: 2px;
 	margin-right: 2px;
@@ -31,6 +31,6 @@
 	-webkit-border-radius: 15px;
 }
 
-.delTaxonomy:hover {
+.del-taxonomy:hover {
 	color: #ff3445;
 }
