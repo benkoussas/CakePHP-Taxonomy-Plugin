@@ -8,7 +8,5 @@ class Term extends TaxonomyAppModel {
 		'foreignKey' => 'term_id',
 		'dependent' => true
 	)); 
-	
-	public $displayField = Configure::read('Taxonomy.field');
 
 }

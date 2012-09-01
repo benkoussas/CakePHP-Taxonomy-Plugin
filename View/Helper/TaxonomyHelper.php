@@ -29,7 +29,7 @@ class TaxonomyHelper extends AppHelper {
 		
 		if(!empty($data['Taxonomy'][$type])){
 			foreach($data['Taxonomy'][$type] as $value){
-				$url = Router::url( array( 'controller' => 'Terms', 'action' => 'delete', 'plugin' => 'taxonomy', 'admin'=>true, $value['TermR']['id']));
+				$url = Router::url( array( 'controller' => 'Terms', 'action' => 'delete', 'plugin' => 'taxonomy', $value['TermR']['id']));
 				$html .= '<span class="tag no-shadow">'.$value['Term'][Configure::read('Taxonomy.field')].' <a href="'.$url.'" class="del-taxonomy">x</a></span>';
 			}
 		}
