@@ -44,7 +44,7 @@ For instance :
 		$this->Model->addTerm('dog', 'pet');
 		$this->Model->addTerm('cat', 'pet');
 		
-You can retrieve within your find results the terms by type in ['Taxonomy'], neighbors in ['TaxonomyNeighbors'] and related in ['TaxonomyRelated'].
+You can retrieve within your find results the terms by type in ['Taxonomy'], neighbors in ['TaxonomyNeighbor'] and related in ['TaxonomyRelated'].
 	
 If you want to create checkboxes for editing a specific Taxonomy :
 		
@@ -84,7 +84,7 @@ Changes from the beta version :
   possibility to add a position field in term_relationships table.
 
 
-- Added TaxonomyFinder and TaxonomyNeighbors Behaviors
+- Added TaxonomyFinder and TaxonomyNeighbor Behaviors
 - Deleted ['Model']['terms'] in data array.
 - All terms are referenced in ['TermR'] and ['Taxonomy'] in model data array.
 - Added Set::combine by Hash::Combine (CakePHP 2.2 Update).
